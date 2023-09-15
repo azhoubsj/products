@@ -9,3 +9,7 @@ while True:
 	# p.append(price) #7-9行等价于p = [name, price]
 	products.append([name, price])
 print(products)
+
+for p in products:
+	print(p)
+	print(p[0], '的价格是', p[1], '元')
